@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header form {
+  margin-top: 10px;
+}
+
+header input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+header button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+#newsContainer h2 {
+  margin-bottom: 20px;
+}
+
+#newsCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.newsCard {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.newsCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.newsCard .content {
+  padding: 15px;
+}
+
+.newsCard h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.newsCard p {
+  font-size: 14px;
+  color: #555;
+}
+
+.newsCard a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.newsCard a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
